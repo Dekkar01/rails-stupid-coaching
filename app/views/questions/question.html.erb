@@ -1,0 +1,17 @@
+<%# <h1>Ask your coach a question:</h1>
+<form action="/answer" data-turbo="false">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form> %>
+
+
+<div class="container mt-5">
+  <h1>Ask your coach a question:</h1>
+  <form class="form-inline" action="/answer" data-turbo="false">
+    <div class="form-group mb-2">
+      <label for="question" class="sr-only">Ask your coach a question:</label>
+      <input type="text" class="form-control mr-2" name="question" id='question'>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Ask!</button>
+  </form>
+</div>
